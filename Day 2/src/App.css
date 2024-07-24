@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.toggle-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #28a745;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background: #218838;
+}
