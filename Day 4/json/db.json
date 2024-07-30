@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": "08fd",
+      "name": "Maha Sakthi Kumar B",
+      "email": "727722eucs098@skcet.ac.in",
+      "password": "123",
+      "confirmPassword": "123",
+      "role": "admin"
+    },
+    {
+      "id": "f801",
+      "name": "Maha Sakthi Kumar B",
+      "email": "22cse099@skcet.ac.in",
+      "password": "123",
+      "confirmPassword": "123",
+      "role": "admin"
+    }
+  ]
+}
