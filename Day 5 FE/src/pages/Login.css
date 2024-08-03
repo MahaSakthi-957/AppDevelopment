@@ -1,0 +1,66 @@
+/* Login.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    
+  }
+  
+  .auth-form {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .auth-form h1{
+   margin-left: -80%;
+   color:beige;
+  }
+  
+  .auth-form-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form-content label {
+    margin-top: 10px;
+  }
+  
+  .auth-form-content input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-form-content button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f90;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-form-content button:hover {
+    background-color: #e87a00;
+  }
+  
+  .toggle-text {
+    margin-top: 20px;
+  }
+  
+  .toggle-link {
+    color: #f90;
+    text-decoration: none;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+  }
+  
