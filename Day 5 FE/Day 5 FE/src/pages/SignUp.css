@@ -1,0 +1,71 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-vector/digital-illustration-man-demonstrating-online-authentication-large-tablet-display_941526-3744.jpg?w=740');
+  background-repeat: no-repeat;
+  
+}
+
+.auth-form {
+  width: 600px;
+  height: 700px;
+  padding: 20px;
+  margin-left: 55%;
+  background-color: #5F9EA0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center text horizontally */
+}
+
+.auth-form-content {
+  width: 100%; /* Ensure the content takes full width of the container */
+}
+
+.auth-form-content label {
+  margin-top: 10px;
+}
+
+.auth-form-content input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Make inputs take full width */
+  max-width: 400px; /* Limit max width for better appearance */
+}
+
+.auth-form-content button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f90;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+
+.auth-form-content button:hover {
+  background-color: #e87a00;
+}
+
+.toggle-text {
+  margin-top: 20px;
+}
+
+.toggle-link {
+  color: #f90;
+  text-decoration: none;
+}
+
+.toggle-link:hover {
+  text-decoration: underline;
+}

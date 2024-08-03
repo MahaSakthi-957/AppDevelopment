@@ -1,0 +1,69 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-icon {
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+label {
+  flex: 1;
+  font-weight: bold;
+}
+
+input {
+  flex: 2;
+  padding: 5px;
+}
+
+.edit-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.save-button, .sign-out-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sign-out-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.sign-out-button {
+  display: flex;
+  align-items: center;
+}
+
+.sign-out-button .fa-sign-out-alt {
+  margin-right: 8px;
+}
